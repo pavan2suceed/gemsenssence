@@ -21,7 +21,7 @@ const Content = () => {
       setActualMovies(json);
       setLoading(false);
     } catch (error) {
-      alert('An error occured');
+      alert('An error occured!');
     }
   };
 
